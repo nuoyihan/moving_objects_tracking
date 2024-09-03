@@ -1,14 +1,14 @@
-prepare environment:
-conda create --name tracking_env
-conda activate tracking_env
-conda install numpy matplotlib opencv
---
-
-to run tracking for a video "video.mov"
-put "video.mov" in "data/video_in" directory and run this on the command line "python run_pipeline.py video"
+prepare environment:<br>
+conda create --name tracking_env<br>
+conda activate tracking_env<br>
+conda install numpy matplotlib opencv<br>
 
 --
-video with tracked markers annotated will appear in "data/video_out"
+to run tracking for a video "video.mov"<br>
+put "video.mov" in "data/video_in" directory and run this on the command line "python run_pipeline.py video"<br>
 
-a visualization of the tracked path will be in "data/tracked_paths_plots"
-coordinates of the tracked path will be in "data/path_plots"
+--
+video with tracked markers annotated will appear in "data/video_out"<br>
+
+a visualization of the tracked path will be in "data/tracked_paths_plots"<br>
+coordinates of the tracked path will be in "data/path_plots"<br>
